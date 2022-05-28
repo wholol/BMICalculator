@@ -1,0 +1,52 @@
+
+body
+{ 
+    background-image: url('https://images.unsplash.com/photo-1592743263126-bb241ee76ac7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686');  
+}
+
+#inputBoxes label
+{
+    display: inline-block;
+    width: 150px;
+}
+
+input
+{
+    border-radius: 10px;
+    outline: none;
+    font-style: italic;
+    text-align: center;
+    background-color: beige;
+}
+
+#card
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: orange;
+    border-radius: 20px;
+    width: 700px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: rgb(13, 13, 92);
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+#btn
+{
+    background-color: rgb(36, 128, 128);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+#btn:hover
+{
+    background-color: green;
+}
